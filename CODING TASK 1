@@ -1,0 +1,45 @@
+package exerciseWeek3;
+
+class RectangleComputation {
+
+	public static void main(String[] args) {
+	double length,width,area,perimeter;
+	length=1.20;
+	width=2.00;
+	area=length*width;
+	perimeter=length*2+width*2;
+	
+	System.out.print("The area is ");
+	System.out.println(area);
+	System.out.print("The perimeter is ");
+	System.out.print(perimeter);
+
+	}
+
+}
+
+
+
+package exerciseWeek3;
+
+class CylinderComputation {
+
+	public static void main(String[] args) {
+	double radius,height,surfaceArea,baseArea,volume;
+	final double PI=3.14159265;
+	radius=1.2;
+	height=2.0;
+	surfaceArea=2*PI*radius*height + 2*PI*radius*radius;
+	baseArea=PI*radius*radius;
+	volume=PI*radius*radius*height;
+	
+	System.out.print("The surface area is ");
+	System.out.println(surfaceArea);
+	System.out.print("The base area is ");
+	System.out.println(baseArea);
+	System.out.print("The volume is ");
+	System.out.print(volume);
+
+	}
+
+}
