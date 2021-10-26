@@ -1,0 +1,23 @@
+package numericData;
+
+class Exercise2 {
+
+	public static void main(String[] args) {
+        String name = "Ahmad Zuhairi Bin Mohd Yusri";
+        String matrix = "Kolej Mara Kulim";
+        String certif = "Matriculation certificate";	
+        String num = "MS2056112564";
+		double CGPA1 = 3.50;
+		double CGPA2 = 3.67;
+		double avgCGPA = (CGPA1+CGPA2)/2;
+		
+		System.out.println("My name is " + name );
+		System.out.println("My previous academic institution is at " + matrix );
+		System.out.println("My matrix number is " + num);
+		System.out.println("My academic certificate is " + certif );
+		System.out.printf("For Sem 1 CGPA I got %.2f" , CGPA1); 
+		System.out.println("\nFor Sem 2 CGPA I got " + CGPA2);
+		System.out.printf("My average CGPA for my matriculation academic is %.2f " , avgCGPA );
+	}
+
+}
